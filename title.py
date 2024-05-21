@@ -1,5 +1,10 @@
 import areacalc
 
+#print("edited by Sebastiaan ter Keurs :)")
+#for i in range (1000):
+#    print("\n")
+
+
 t = 0
 
 def title():
@@ -30,6 +35,10 @@ if x == "1":
     x = input("                                                                             Choice: ")
     if x == "square":
         areacalc.square()
+    if x == "triangle":
+        areacalc.triangle()
+    if x == "circle":
+        areacalc.circle()
 
 else:
     x = print("                                                that is not one of the choices, please enter in either 1, 2, 3 or 4 ")
