@@ -35,7 +35,44 @@ def volSphre():
         input()
         return
 
-volSphre()   
+#volSphre()   
+
+
+def volSphre():
+    try:
+        r = input("enter a radiuz > ")
+        r=float(r)
+        print(f"the volume is {(4/3)*3.14*(r**3)}")
+        input("press 'enter' to return")
+        return
+    except:
+        print("not number")
+        input()
+        return
+
+
+
+
+#sebastiaan did this one :)
+def volCone():
+    try:
+        h = input("enter a height > ")
+        h=float(h)
+        r = input("enter a radius > ")
+        r=float(r)
+        print(f"the volume is {(1/3)*3.14*r**2*(h)}")
+        input("press 'enter' to return")
+        return
+    except:
+        print("not number")
+        input()
+        return
+
+##volCone()
+
+
+
+
 
 
 
