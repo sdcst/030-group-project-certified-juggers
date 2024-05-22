@@ -1,11 +1,7 @@
-import areacalc, volcalc
+import menu
 
 #print("edited by Sebastiaan ter Keurs :)")
 #for i in range (1000):
-#    print("\n")
-
-
-
 
 def title():
     print("                                                                  ___   _   _    ___     _   ___ ___ ")
@@ -23,36 +19,8 @@ def title():
     print("")
     print("                                                   Enter in the corresponding number of whatever you want to calculate ")
 title()
-x = input("                                                                                 Choice: ")
 
+menu.menu()
+        
 
-if x == "exit":
-    exit()
-
-elif x == "1":
-    print("")
-    print("                                              Would you like to calculate the area of a square, triangle or circle?")
-    x = input("                                                                             Choice: ")
-    if x == "square":
-        areacalc.square()
-    if x == "triangle":
-        areacalc.triangle()
-    if x == "circle":
-        areacalc.circle()
     
-
-elif x == "2":
-    print("")
-    print("                                              Would you like to calculate the volume of a cube, sphere, cone or rectangualar prism?")
-    x = input("                                                                             Choice: ")
-    if x == "cube":
-        volcalc.volCube()
-    if x == "sphere":
-        volcalc.volSphre()
-    if x == "cone":
-        volcalc.volCone()
-    if x == "rectangular prism":
-        volcalc.volRectPris()
-else:
-    x = print("                                                that is not one of the choices, please enter in either 1, 2, 3 or 4 ")
-    x = input("                                                                                 Choice: ")
