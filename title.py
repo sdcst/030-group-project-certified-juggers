@@ -14,13 +14,9 @@ def title():
     print("")
     print("                                                         1 -  Area Calculations     2 - Volume Calculations")
     print("                                                         3 -  Tax Calculations      4 - Interest Calculations")
-    print('                                                                       (type in "exit" to stop) ')
-    print('                                                                      (type in "enter" to return) ')
     print("")
     print("                                                   Enter in the corresponding number of whatever you want to calculate ")
-title()
 
-menu.menu()
         
 
     
